@@ -18,6 +18,10 @@ build:
       goals: install
       cache_repo: true
       version: 3.5.2
+
+    - script:
+        name: Maven install
+        code: mvn install
      
 push:
   steps:
