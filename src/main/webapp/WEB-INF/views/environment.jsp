@@ -122,7 +122,7 @@
         <div class="footerLeft columns">
           <ul>
             <li><a href='http://www.oracle.com/corporate/index.html'
-              target="_blank">About Oracle</a></li>
+              target="_blank">About Oracle YEAH!</a></li>
             <li><a
               href='http://www.oracle.com/corporate/contact/index.htm'
               target="_blank">Contact Us</a></li>
