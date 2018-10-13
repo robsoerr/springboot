@@ -52,7 +52,7 @@
               <br>SpringBoot application demo. Current server time: <%= new java.util.Date() %> <br>
               <br>
               <p>
-                <span style="color: #333; text-decoration: none">Build faster and release often with Wercker's Docker-Native 
+                <span style="color: #333; text-decoration: none">Building faster and release often with Wercker's Docker-Native 
           continuous integration platform for developing, building and delivering your applications.</span>
               </p>
               <p>
