@@ -32,4 +32,12 @@ push:
         tag: latestyeah
         repository: $DOCKER_REPOSITORY
         registry: https://registry.hub.docker.com/v2
-        cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
+       # cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
+
+test:  
+    steps:
+    -script:
+        name: test
+       # cmd: java -jar /
+
+
