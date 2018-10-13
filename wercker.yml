@@ -29,10 +29,10 @@ push:
     - internal/docker-push:
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
-        tag: latestyeah
+        tag: latest
         repository: $DOCKER_REPOSITORY
         registry: https://registry.hub.docker.com/v2
-       # cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
+        cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
 
 test:  
     steps:
