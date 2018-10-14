@@ -37,14 +37,13 @@ push:
         registry: https://registry.hub.docker.com/v2
         cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
 
-deployopenshift:
-    steps:
 
-    - script:
-        repository: $OPENSHIFT_TOKEN
-        tag: latest
-        cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
-
+deploy:
+  steps:
+    - heroku-deploy:
+        key: $HEROKU_KEY
+        user: $HEROKU_USER
+        app-name: $HEROKU_APP_NAME
 
 
 
