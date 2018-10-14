@@ -1,1 +1,1 @@
-web: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war 
+web: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war com.example.springboot
