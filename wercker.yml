@@ -40,7 +40,7 @@ push:
 deployopenshift:
     steps:
 
-    -internal/openshift-push:
+    - script:
         repository: $OPENSHIFT_TOKEN
         tag: latest
         cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
