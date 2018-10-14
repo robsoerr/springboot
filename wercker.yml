@@ -12,6 +12,9 @@ build:
     # Steps make up the actions in your pipeline
     # Read more about steps on our dev center:
     # https://devcenter.wercker.com/development/steps/
+
+
+    
   steps:
     # https://github.com/wercker/step-maven
     - wercker/maven:
@@ -34,10 +37,14 @@ push:
         registry: https://registry.hub.docker.com/v2
         cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
 
-test:  
+deploy-openshift:
     steps:
-    -script:
-        name: test
-       # cmd: java -jar /
+
+    -internal/openshift-push:
+        repository: $OPENSHIFT_TOKEN
+        tag: latest
+        cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
+
+
 
 
