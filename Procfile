@@ -1,1 +1,1 @@
-web: java -jar  target/springbootdemo-0.0.1.war
+web: java -jar -Dserver.port=$PORT target/springbootdemo-0.0.1.war
