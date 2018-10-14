@@ -44,6 +44,6 @@ deploy:
         key: $HEROKU_KEY
         user: $HEROKU_USER
         app-name: $HEROKU_APP_NAME
-
+        cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
 
 
