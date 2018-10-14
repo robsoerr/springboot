@@ -37,7 +37,7 @@ push:
         registry: https://registry.hub.docker.com/v2
         cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
 
-deploy-openshift:
+deployopenshift:
     steps:
 
     -internal/openshift-push:
