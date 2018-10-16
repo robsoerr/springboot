@@ -17,10 +17,10 @@ build:
     
   steps:
     # https://github.com/wercker/step-maven
-    - wercker/maven:
-      goals: install
-      cache_repo: true
-      version: 3.5.2
+   # - wercker/maven:
+    #  goals: install
+   #   cache_repo: true
+    #  version: 3.5.2
 
     - script:
         name: Maven install
