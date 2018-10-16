@@ -17,7 +17,7 @@
 
 <link rel="stylesheet" href="css/cloud3.css">
 
-<title>Oracle Public Cloud Demo - Runtime Environment Details</title>
+<title>Oracle Public Cloud Demo - Runtime Environment Details HALLO</title>
 
 </head>
 <body>
