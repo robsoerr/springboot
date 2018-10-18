@@ -12,6 +12,7 @@ build:
     # Steps make up the actions in your pipeline
     # Read more about steps on our dev center:
     # https://devcenter.wercker.com/development/steps/
+    #
 
 
     
@@ -22,9 +23,7 @@ build:
       cache_repo: true
       version: 3.5.2
 
-    #- script:
-     #   name: Maven install
-      #  code: mvn install
+
      
 push:
   steps:
